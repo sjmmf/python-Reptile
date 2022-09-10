@@ -1,4 +1,3 @@
-from urllib import response
 import urllib.request
 
 url = "https://www.baidu.com"
