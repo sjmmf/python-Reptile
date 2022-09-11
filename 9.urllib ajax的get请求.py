@@ -1,3 +1,5 @@
+#网页检查中有X-Requested-With:XMLHttpRequest   则是ajax请求
+
 import urllib.request
 import urllib.parse
 
