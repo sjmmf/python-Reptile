@@ -1,3 +1,4 @@
+#详细翻译是以v2开头的，请求方式为post
 import urllib.request
 import urllib.parse
 import json

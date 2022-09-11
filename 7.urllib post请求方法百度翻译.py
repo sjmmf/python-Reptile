@@ -15,6 +15,8 @@ data = {
 }
 
 #post的请求参数必须要进行编码，即在urlencode后还要进行encode
+#第一次urlencode:对字典参数进行unicode编码转成字符串
+#第二次encode：将字符串数据转换为字节类型
 new_data = urllib.parse.urlencode(data).encode("utf-8")
 
 #在urllib.request.Request()中第二个参数为"data = "
