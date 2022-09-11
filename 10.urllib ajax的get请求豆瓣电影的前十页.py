@@ -20,7 +20,7 @@ import urllib.parse
 
 #每一页的请求对象定制
 def create_request(page):
-    base_url = "https://movie.douban.com/j/chart/top_list?type=25&interval_id=100%3A90&action=&start=0&limit=20"
+    base_url = "https://movie.douban.com/j/chart/top_list?type=25&interval_id=100%3A90&action=&"
 
     data = {
         'start':(page-1)*20,
